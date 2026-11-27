@@ -4,17 +4,8 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import './InfoBox.css'
 
-export default function InfoBox() {
+export default function InfoBox({info}) {
     const img_url = "https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg"
-    let info = {
-        city: "Mumbai",
-        description: "smoke",
-        feelsLike: 32.44,
-        humidity: 45,
-        temp: 31.49,
-        tempMax: 31.99,
-        tempMin: 28.86
-    }
     return(
         <div className="info-box">
         <h3>Weather Information</h3>
