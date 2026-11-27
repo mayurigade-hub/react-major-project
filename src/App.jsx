@@ -4,12 +4,14 @@
 // import viteLogo from './assets/vite.svg'
 // import './App.css'
 import SearchBox from './SearchBox'
+import InfoBox from './InfoBox'
 
 function App() {
 
   return (
     <div>
       <SearchBox />
+      <InfoBox />
     </div>
   )
 }
